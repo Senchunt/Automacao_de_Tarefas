@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Formulário de Cadastro</h1>
+        <h2>Produtos</h2>
+        <form id="meuFormulario">
+
+            <label for="codigo">Código do Produto</label>
+            <input type="varchar" id="codigo" name="codigo" required>
+
+            <label for="marca">Marca do Produto</label>
+            <input type="text" id="marca" name="marca" required>
+            
+            <label for="tipo">Tipo do Produto</label>
+            <input type="text" id="tipo" name="tipo" required>
+
+            <label for="categoria">Categoria do Produto</label>
+            <input type="int" id="categoria" name="categoria" required>
+
+            <label for="preco">Preço Unitário do Produto</label>
+            <input type="Intl.NumberFormat" id="preco" name="preco" required>
+
+            <label for="custo">Custo do Produto</label>
+            <input type="Intl.NumberFormat" id="custo" name="custo" required>        
+
+            <label for="obs">Observação</label>
+            <input type="NaN" id="obs" name="obs" required>
+
+            <div>
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </div>
+        </form>
+        <div id="resultados"></div>
+    </div>
+</body><br>
+
+<footer>
+    <p>&copy; 2025 Intensivão Hashtag Treinamentos. Todos os direitos reservados.</p>
+    <p>Bruno Ferreira de Araújo</p>
+    <p>Desenvolvedor Web - Senchunt_TechCoder</p>
+</footer>
+    <script src="script.js"></script>
+</html>
